@@ -6,8 +6,8 @@
 // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。 
 double myRoot(double x) //型が違っていたためintからdoubleに変更
 {
-  double y;
-  if( x <= 0 ){
+  double y; //intからdoubleに変更
+  if( !( x >= 0 ) ){ //判定式をx <= 0 から !( x >= 0 )に変更した。
     exit(1);
   }
   y = sqrt(x);
