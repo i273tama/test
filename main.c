@@ -6,7 +6,7 @@
 // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。 
 double myRoot(double x) //型が違っていたためintからdoubleに変更
 {
-  int y;
+  double y;
   if( x <= 0 ){
     exit(1);
   }
