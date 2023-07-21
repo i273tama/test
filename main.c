@@ -16,7 +16,7 @@ double myRoot(double x) //型が違っていたためintからdoubleに変更
 
 int main(void)
 {
-  int i;
+  int i = 0; //変数iを0で初期化
   double *x = (double *)malloc(sizeof(double) * 100);
 
   while( i <= 100 ){
